@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { CalendarCheck, MessageCircle } from "lucide-react";
+import { CalendarCheck, MessageCircle, ChevronDown } from "lucide-react";
 
 const AGENDA_URL = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ10baEhf2nfYpW2ekiKDw0qe5z_NCfTWJVTiWxzGMgfiazjT929J3HWw0iTm09Qo7cWhZJbFSTT";
 const WHATSAPP_URL = "https://wa.me/553231980374?text=Olá!%20Quero%20saber%20mais%20sobre%20como%20a%20WiSa%20pode%20organizar%20minha%20empresa.";
@@ -57,6 +57,26 @@ const HeroSection = () => {
               <MessageCircle size={22} />
               Falar no WhatsApp
             </a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.8 }}
+            className="mt-12 text-center"
+          >
+            <p className="text-sm text-muted-foreground mb-4">
+              📰 Role para baixo e confira as últimas notícias do mundo contábil
+            </p>
+            <motion.div
+              animate={{ y: [0, 8, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              className="flex justify-center gap-1"
+            >
+              <ChevronDown className="h-5 w-5 text-primary/60" />
+              <ChevronDown className="h-5 w-5 text-primary/40" />
+              <ChevronDown className="h-5 w-5 text-primary/20" />
+            </motion.div>
           </motion.div>
         </div>
       </div>
