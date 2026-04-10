@@ -66,7 +66,7 @@ const HeroSection = () => {
             className="mt-12 text-center"
           >
             <p className="text-sm text-muted-foreground mb-4">
-              📰 Role para baixo e confira as últimas notícias do mundo contábil
+              Role para o fim da página e confira as últimas notícias do mundo contábil
             </p>
             <motion.div
               animate={{ y: [0, 8, 0] }}
