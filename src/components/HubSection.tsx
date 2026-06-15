@@ -14,11 +14,11 @@ const HubSection = () => {
         >
           <div className="mb-6">
             <div className="w-48 h-48 mx-auto mb-4 rounded-full flex items-center justify-center bg-white shadow-lg">
-              <img src="/public/logo-wisa-geral.png" alt="Hub WiSa" className="w-[200px] h-[120px] object-contain" />
+              <img src="/logo-wisa-geral.png" alt="Hub WiSa" className="w-[200px] h-[120px] object-contain" />
             </div>
           </div>
           <h3 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "hsl(0 0% 100%)" }}>
-            Conheça o Hub WiSa
+            Sobre a WiSa Inteligência para Negócios
           </h3>
           <p className="text-base mb-8 max-w-2xl mx-auto" style={{ color: "hsl(215 20% 70%)" }}>
             Somos um ecossistema de inteligência B2B focado em crescimento escalável. 
@@ -26,7 +26,7 @@ const HubSection = () => {
           </p>
           <Button size="lg" asChild className="text-base px-8 py-6 rounded-lg font-semibold" style={{ backgroundColor: "linear-gradient(135deg, hsl(38 55% 50%), hsl(40 60% 65%))", color: "hsl(345 48% 12%)" }}>
             <a href="https://hubwisa.com.br" target="_blank" rel="noopener noreferrer">
-              Acessar Hub WiSa
+              Acessar Nosso Site
               <ExternalLink className="w-4 h-4 ml-2" />
             </a>
           </Button>

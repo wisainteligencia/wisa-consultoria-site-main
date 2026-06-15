@@ -17,7 +17,7 @@ const Header = () => {
           <a href="#dor" className="text-foreground/80 hover:text-primary transition-colors text-sm font-medium">O Problema</a>
           <a href="#solucao" className="text-foreground/80 hover:text-primary transition-colors text-sm font-medium">Como Atuamos</a>
           <a href="#resultado" className="text-foreground/80 hover:text-primary transition-colors text-sm font-medium">Resultados</a>
-          <a href="#hub" className="text-foreground/80 hover:text-primary transition-colors text-sm font-medium">Hub WiSa</a>
+          <a href="#hub" className="text-foreground/80 hover:text-primary transition-colors text-sm font-medium">WiSa</a>
           <a
             href={WHATSAPP_URL}
             target="_blank"

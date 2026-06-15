@@ -45,7 +45,7 @@ const IsaAssistant = () => {
         className="relative w-[90px] h-[90px] rounded-full shadow-xl animate-pulse-gold hover:opacity-90 transition-opacity overflow-hidden"
       >
         <img 
-          src="/public/isa2.png" 
+          src="/isa2.png" 
           alt="Isa" 
           className="w-[full] h-full object-cover"
         />
