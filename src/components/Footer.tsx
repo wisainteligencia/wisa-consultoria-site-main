@@ -1,3 +1,4 @@
+import { Instagram, Facebook } from "lucide-react";
 import logoWisaBranca from "@/assets/logo-wisa-branca.png";
 
 const Footer = () => {
@@ -11,6 +12,26 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-muted-foreground text-sm">
           <span>(32) 3198-0374</span>
           <span>wisa@wisaconsultoriaesistemas.com.br</span>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://www.instagram.com/hubwisa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="hover:text-primary transition-colors"
+            >
+              <Instagram size={20} />
+            </a>
+            <a
+              href="https://www.facebook.com/hubwisa"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="hover:text-primary transition-colors"
+            >
+              <Facebook size={20} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
