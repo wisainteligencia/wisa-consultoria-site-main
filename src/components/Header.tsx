@@ -11,7 +11,12 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 glass-card">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <img src={logoWisa} alt="WiSa Consultoria e Sistemas" className="h-10" />
+        <a href="#" className="flex items-center gap-3">
+          <img src={logoWisa} alt="WiSa Consultoria e Sistemas" className="h-10" />
+          <span className="text-foreground font-semibold text-base md:text-lg leading-tight">
+            WiSa Consultoria e Sistemas
+          </span>
+        </a>
 
         <nav className="hidden md:flex items-center gap-8">
           <a href="#dor" className="text-foreground/80 hover:text-primary transition-colors text-sm font-medium">O Problema</a>
